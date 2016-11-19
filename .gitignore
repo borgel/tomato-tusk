@@ -1,3 +1,13 @@
+# PSOC stuff
+*.borgel
+Generated_Source/
+codegentemp/
+CortexM0/
+PSoCCreatorExportIDE.xml
+*.cyfit
+*.rpt
+*.cycdx
+
 # Object files
 *.o
 *.ko
