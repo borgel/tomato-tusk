@@ -1,6 +1,7 @@
 #include <project.h>
 
 #include <stdbool.h>
+#include "iprintf/iprintf.h"
 int main()
 {
     CyGlobalIntEnable;
