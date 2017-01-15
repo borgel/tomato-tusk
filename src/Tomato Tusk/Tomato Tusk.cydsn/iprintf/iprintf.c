@@ -7,7 +7,7 @@
 static void iputc(char8 ch)
 {
 	/*This function has to be replaced by user*/	
-	SCB_1_UartPutChar(ch);
+	UART_PutChar(ch);
 }
 
 static uint8* change(uint32 Index)
