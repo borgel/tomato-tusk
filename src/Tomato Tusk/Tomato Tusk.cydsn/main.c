@@ -4,6 +4,7 @@
 #include <stdint.h>
 
 #include "iprintf/iprintf.h"
+
 #include "is31fl3236.h"
 int main()
 {
@@ -11,7 +12,8 @@ int main()
     
     // init uart
     UART_Start();
-    UART_PutString("Tomato Tusk [__DATE__] Starting...\n");
+    iprintf("\nTomato Tusk " __DATE__ " : " __TIME__ " Starting...\n");
+    
     // setup tilt sensors
     tiltChanged = false;
     //FIXME en
